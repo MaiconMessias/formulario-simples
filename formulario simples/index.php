@@ -16,6 +16,8 @@
 </head>
 <body>
 	<form name="formPrincipal" action="formdestino.php" method="POST">
+		<label for="id">Id:</label>
+		<input name="id" id="id" type="text" /> <br/><br/>
 		<label for="nome">Nome:</label>
 		<input name="nome" id="nome" type="text" /> <br/><br/>
 		<input type="submit" onclick="return validar()">
